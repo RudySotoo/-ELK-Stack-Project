@@ -39,7 +39,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Web1     | VM             | 10.0.0.5   | Linux            |
 | Web2     | VM             | 10.0.0.7   | Linux            |
 | Web3     | VM             | 10.0.0.9   | Linux            |
-| Elk      | Elk container  | 10.1.0.4   | Linux
+| Elk      | Elk container  | 10.1.0.4   | Linux            |
             data collection
 
 ### Access Policies
@@ -47,7 +47,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- : 20.124.184.135 |Whitelisted IP addresses_ | 10.0.0.5 | 10.0.0.7| 10.0.0.9 |
+- :|Whitelisted IP addresses_ | 10.0.0.5 | 10.0.0.7| 10.0.0.9 |10.1.0.4|
 
 Machines within the network can only be accessed by ___ip__.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_ i gave access to my main PC ( 20.124.184.135)
