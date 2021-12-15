@@ -11,7 +11,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 - install-elk.yml
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -24,7 +24,7 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly _available____, in addition to restricting _access____ to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_ Load balnacers are a important role in security because the off-loading function of a load balancer defends a company against a DDOS attack by shifting trafffic from a corprate server to a public cloud server.
+- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_ Load balnacers are a important role in security because the off-loading function of a load balancer defends a company against a DDOS attack by shifting traffic from a corprate server to a public cloud server.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _data____ and system __Logs___.
 - _TODO: What does Filebeat watch for? Filebeat watches for log files or locations 
@@ -85,7 +85,7 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
- it keeps track of access if something happened to any sensitive filies it will be much easier to loacate and resolve the issue. Metricbeat monitors usage like CPU, memory also looks at any traffic coming in or out.
+ it keeps track of access if something happened to any sensitive files it will be much easier to locate and resolve the issue. Metricbeat monitors usage like CPU, memory also looks at any traffic coming in or out.
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
@@ -96,7 +96,7 @@ SSH into the control node and follow the steps below:
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_ - .yml files are playbook files, these files are copied to containers 
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_  hosts file allows for grouping to dictate where rescources go.  
+- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_  hosts file allows for grouping to dictate where resources go.  
 - _Which URL do you navigate to in order to check that the ELK server is running? - [VM_Public_IP:5601/app/kibana]
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._ 
