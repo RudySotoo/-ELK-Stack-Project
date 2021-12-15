@@ -50,7 +50,7 @@ Only the jumpbox machine can accept connections from the Internet. Access to thi
 - :|Whitelisted IP addresses_ | 10.0.0.5 | 10.0.0.7| 10.0.0.9 |10.1.0.4|
 
 Machines within the network can only be accessed by ___ip__.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_ i gave access to my main PC ( 20.124.184.135)
+- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_ i gave access to my host machine. 
 
 A summary of the access policies in place can be found in the table below.
 
